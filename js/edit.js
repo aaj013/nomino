@@ -165,7 +165,7 @@ function beginEdit(type,id)
 			$("#tabs").tabs("select",1);
 			$( "#waitDialog" ).dialog('close');
 			
-			getProposals(type,id);
+//			getProposals(type,id);
 		},
 		error: function(e){$( "#waitDialog" ).dialog('close');alert(LANG.ERROR_RETRIEVE);}
     });
