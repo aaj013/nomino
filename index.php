@@ -115,7 +115,7 @@ try{
 
 			<?php
 			if( $user == null ){
-				?><a href="javascript:osmAuth()" style="float:right"><?php echo _("Login with OSM");?></a><?php
+				?><a href="javascript:return false;javascript:osmAuth()" style="float:right"><?php echo _("Login with OSM");?></a><?php
 			}else{
 				echo '<span style="float:right">'.$user->getName().'</span>';
 			}
