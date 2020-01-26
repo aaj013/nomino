@@ -420,6 +420,7 @@ function osmAuth()
 		{
 			text: LANG.AUTHENTICATE,
 			click: function() {
+			        return false; //disable osmAuth function temporarly due to bug in yapafo module
 				window.location = url ;
 			}
 		}

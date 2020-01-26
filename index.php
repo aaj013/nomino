@@ -82,6 +82,7 @@ try{
 		<div id="authDialog" style="display: none">
 			<p><?php echo _("To save changes in OSM database you have to be authenticated at osm.org.");?></p>
 			<p><?php echo _("After authentification you'll be redirected back here.");?></p>
+			<p><?php echo _("AUTHENTICATION BLOCKED TEMPORARILY");?></p>
 		</div>
 		<div id="selectPlaceDialog" style="display: none" title="<?php echo _("Choose a place");?>"><form name="selectPlace"></form></div>
 		<div id="preferencesDialog" style="display:none" title="<?php echo _("Preferences");?>">
@@ -115,7 +116,7 @@ try{
 
 			<?php
 			if( $user == null ){
-				?><a href="javascript:return false;javascript:osmAuth()" style="float:right"><?php echo _("Login with OSM");?></a><?php
+				?><a href="javascript:osmAuth()" style="float:right"><?php echo _("Login with OSM");?></a><?php
 			}else{
 				echo '<span style="float:right">'.$user->getName().'</span>';
 			}
