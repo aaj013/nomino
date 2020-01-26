@@ -1,0 +1,3 @@
+[submodule "lib/yapafo"]
+	path = lib/yapafo
+	url = https://github.com/aaj013/yapafo
