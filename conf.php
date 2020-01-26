@@ -49,12 +49,12 @@ class Conf
 	 * Identifying number for Nomino on api.openstreetmap.org
 	 * @var string
 	 */
-	const OAUTH_CONSUMER_KEY = 'eEn7SBt1FBIF9TfT1o9T63OAcgm8O4A48WFoEMbX';
+	const OAUTH_CONSUMER_KEY = 'Gh7ykPPhjfMmdk0dw19MaWgMUrb8MSU7uzZbTySC';
 	/**
 	 * Oauth application secret
 	 * @var string
 	 */
-	const OAUTH_CONSUMER_SECRET = 'UfbdRaMeUgf3rqiqocDEN6Z1F6GXexlCrj8WKF7q';
+	const OAUTH_CONSUMER_SECRET = 'jNaTz7SVMaSXHV31z7mgXwNudu4LrxSHdE9gGZsw';
 	/**
 	 * Keys for user preferences
 	 * @var array of string
