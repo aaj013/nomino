@@ -19,7 +19,7 @@ class Conf
 	 * URL of a Nominatim instance
 	 * @var string
 	 */
-	const NOMINATIM_API = 'http://nominatim.openstreetmap.org/';
+	const NOMINATIM_API = 'https://nominatim.openstreetmap.org/';
 	/**
 	 * Max number of results retrieved in a Nominatim request
 	 * @var int
